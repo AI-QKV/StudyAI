@@ -6,3 +6,5 @@
 [大白话理解Transormer模型](https://github.com/YinHanMsn/StudyAI/blob/main/transformer)
 
 [大白话理解什么是Bias](https://github.com/YinHanMsn/StudyAI/blob/main/Bias)
+
+[大白话理解什么是MOE](https://github.com/YinHanMsn/StudyAI/blob/main/MOE)
