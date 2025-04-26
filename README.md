@@ -10,3 +10,5 @@
 [大白话理解什么是MOE](https://github.com/YinHanMsn/StudyAI/blob/main/MOE)
 
 [大白话理解什么是RAG](https://github.com/YinHanMsn/StudyAI/blob/main/RAG)
+
+[大白话理解什么是MCP](https://github.com/YinHanMsn/StudyAI/blob/main/MCP)
