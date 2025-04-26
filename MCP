@@ -1,0 +1,11 @@
+黄金三角
+  1，什么是MCP
+  2，MCP能干什么
+  3，怎么学
+
+  ------
+
+
+  1，什么是MCP，Model Context Protocol，大模型上下文协议
+  2，统一接口，类似于操作系统的底层接口，比如C语言的标准库，print，scanf，syscall
+  3，入门级，需要自己下载MCP的数据库，搭建一个MCP Server，初步体验
