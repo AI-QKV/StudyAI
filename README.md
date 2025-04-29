@@ -6,6 +6,7 @@
 [How to Optimize Multimodal Large Language Models](https://github.com/YinHanMsn/StudyAI/blob/main/How%20to%20Optimize%20Multimodal%20Large%20Language%20Models.md)
 
 png图片
+
 [How to Optimize Multimodal Large Language Models](https://github.com/YinHanMsn/StudyAI/blob/main/How%20to%20Optimize%20Multimodal%20Large%20Language%20Models.png)
 
 
