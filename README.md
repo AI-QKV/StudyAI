@@ -1,3 +1,12 @@
+#优化模型论文
+本论文于github首发
+
+由于markdown部分公式显示有问题，可以下载到本地查看，也可以查看同目录的png图片
+[How to Optimize Multimodal Large Language Models](https://github.com/YinHanMsn/StudyAI/blob/main/How%20to%20Optimize%20Multimodal%20Large%20Language%20Models.md)
+png图片
+[How to Optimize Multimodal Large Language Models](https://github.com/YinHanMsn/StudyAI/blob/main/How%20to%20Optimize%20Multimodal%20Large%20Language%20Models.png)
+
+
 # StudyAI
 自己总结的，大白话学习AI
 
