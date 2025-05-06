@@ -14,9 +14,12 @@ png
 [How to Optimize Multimodal Large Language Models](https://github.com/YinHanMsn/StudyAI/blob/main/%E3%80%8A%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E9%AB%98%E6%95%88%E4%BC%98%E5%8C%96%E6%A1%86%E6%9E%B6%EF%BC%9A%E6%A8%A1%E5%9D%97%E5%8C%96%E7%B4%AF%E7%A7%AF%E6%95%88%E5%BA%94%E4%B8%8E%E8%B4%A8%E5%8F%98%E3%80%8B.pdf)
 
 
+----------------------
 本论文于2025-5-6首发于Github，引用请署名
 
 [Dual_Dimensional A Method for Quantifying End-to-End Stability Rate](https://github.com/YinHanMsn/StudyAI/blob/main/Dual_Dimensional%20A%20Method%20for%20Quantifying%20End-to-End%20Stability%20Rate.pdf)
+
+
 
 
 
