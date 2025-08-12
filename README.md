@@ -51,3 +51,7 @@ png
 
 [大白话理解什么是RNN](https://github.com/YinHanMsn/StudyAI/blob/main/RNN)
 
+[大白话理解什么是层归一化](https://github.com/YinHanMsn/StudyAI/blob/main/LayerNormal)
+
+
+
