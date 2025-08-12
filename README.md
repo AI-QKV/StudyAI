@@ -30,6 +30,7 @@ png
 
 [入门级教程————单词级别的模型训练](https://github.com/YinHanMsn/StudyAI/blob/main/Word_TransfomerLLM.py)
 
+[入门级教程————单词级别的LoRA微调](https://github.com/YinHanMsn/StudyAI/blob/main/Word_LoRA_LLM.py)
 
 
 ----------------
