@@ -25,6 +25,11 @@ png
 
 
 
+---------------
+很多学者在初学大模型的时候，耗时耗力没有找到合适的入门资料，欢迎使用下面的教程
+
+[入门级教程————单词级别的模型训练](https://github.com/YinHanMsn/StudyAI/blob/main/Word_TransfomerLLM.py)
+
 
 
 ----------------
