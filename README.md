@@ -59,5 +59,7 @@ png
 
 [大白话理解什么是层归一化](https://github.com/YinHanMsn/StudyAI/blob/main/LayerNormal)
 
+[大白话理解什么是层归一化](https://github.com/YinHanMsn/StudyAI/blob/main/FFN)
+
 
 
