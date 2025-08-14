@@ -59,7 +59,7 @@ png
 
 [大白话理解什么是层归一化](https://github.com/YinHanMsn/StudyAI/blob/main/LayerNormal)
 
-[大白话理解什么是层归一化](https://github.com/YinHanMsn/StudyAI/blob/main/FFN)
+[大白话理解什么是FFN(前馈神经网络)](https://github.com/YinHanMsn/StudyAI/blob/main/FFN)
 
 
 
