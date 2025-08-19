@@ -61,5 +61,9 @@ png
 
 [大白话理解什么是FFN(前馈神经网络)](https://github.com/YinHanMsn/StudyAI/blob/main/FFN)
 
+[大白话理解什么是RoPE(旋转位置编码)](https://github.com/AI-QKV/StudyAI/blob/main/RoPE)
+
+
+
 
 
