@@ -63,6 +63,9 @@ png
 
 [大白话理解什么是RoPE(旋转位置编码)](https://github.com/AI-QKV/StudyAI/blob/main/RoPE)
 
+[大白话理解什么是LoRA(Low-Rank Adaptation)](https://github.com/AI-QKV/StudyAI/blob/main/LoRA)
+
+
 
 
 
