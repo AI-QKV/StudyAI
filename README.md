@@ -40,8 +40,8 @@ png
 ----------------
 以下内容和论文无关，自己总结的
 
-# StudyAI
-自己总结的，大白话学习AI，本人用简单的话来让你一分钟让你学会
+# 一分钟让你学会AI
+自己总结的，大白话学习AI
 
 
 [大白话理解Transormer模型](https://github.com/YinHanMsn/StudyAI/blob/main/transformer)
