@@ -68,7 +68,7 @@ png
 
 [大白话理解什么是RNN](https://github.com/YinHanMsn/StudyAI/blob/main/RNN)
 
-[大白话理解什么是LangChain](https://github.com/AI-QKV/StudyAI/blob/main/Langchain))
+[大白话理解什么是LangChain](https://github.com/AI-QKV/StudyAI/blob/main/Langchain)
 
 
 
