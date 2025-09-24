@@ -65,6 +65,9 @@ png
 
 [大白话理解什么是LoRA(Low-Rank Adaptation)](https://github.com/AI-QKV/StudyAI/blob/main/LoRA)
 
+[大白话理解什么是DPO(人类偏好对齐)](https://github.com/AI-QKV/StudyAI/blob/main/DPO)
+
+
 
 
 
