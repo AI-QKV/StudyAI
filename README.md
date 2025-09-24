@@ -70,6 +70,9 @@ png
 
 [大白话理解什么是LangChain](https://github.com/AI-QKV/StudyAI/blob/main/Langchain)
 
+[大白话理解什么是QKV](https://github.com/AI-QKV/StudyAI/blob/main/QKV)
+
+
 
 
 
