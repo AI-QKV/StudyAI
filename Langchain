@@ -1,0 +1,35 @@
+1,什么是langchian，langchain是python的一个库，这个库里面提供丰富的工具和方法，可以从多个层面来进行大模型的定制开发
+2,langchian能做什么，大模型定制开发，Agent定制开发，以及工作流，MCP等功能
+3,怎么使用
+
+
+langchian的架构这样的
+
+  核心层
+  langchian_core.propmt  提供了提示词模版相关，ChatPromptTemplate / PromptTemplate
+  langchian_core.message 提供了消息处理相关 AIMessage / HumanMessage / SystemMessage
+  langchian_memory       提供了多轮回话能力 ConversionBufferMemory
+  ....                   其他Core功能
+
+
+  进阶层
+  langchian_commnuity      提供了Embedding / FAISS / 向量数据库 等功能
+  langchian_textspliter    提供了文本分割/token处理等  如: TextSpliter / tiktoken
+  langchian_chain          提供了文本摘要以及语法链等  LLMChain / Maprece
+  ...                      其他进阶功能
+  
+
+
+  高级层
+  langchian_agent        提供了Agent等相关功能 如: AgentExe...
+  langchian_tools        提供了工具相关  如: @tool
+  langgraph              graph->Agent->route->call_tool
+  graph的作用可以进行工作流相关，如何进行工作流
+      Graph
+        1 addNode 节点
+        2 edge  普通边 / 条件边
+        3 Agent 共享上下文状态
+
+-----
+
+如上所述，langchain的3个架构以及核心功能，
