@@ -43,9 +43,20 @@ png
 # StudyAI
 自己总结的，大白话学习AI
 
-[大白话理解DDPM模型](https://github.com/YinHanMsn/StudyAI/blob/main/DDPM)
 
 [大白话理解Transormer模型](https://github.com/YinHanMsn/StudyAI/blob/main/transformer)
+
+[大白话理解什么是DPO(人类偏好对齐)](https://github.com/AI-QKV/StudyAI/blob/main/DPO)
+
+[大白话理解什么是LoRA(Low-Rank Adaptation)](https://github.com/AI-QKV/StudyAI/blob/main/LoRA)
+
+[大白话理解什么是RoPE(旋转位置编码)](https://github.com/AI-QKV/StudyAI/blob/main/RoPE)
+
+[大白话理解DDPM模型](https://github.com/YinHanMsn/StudyAI/blob/main/DDPM)
+
+[大白话理解什么是FFN(前馈神经网络)](https://github.com/YinHanMsn/StudyAI/blob/main/FFN)
+
+[大白话理解什么是层归一化](https://github.com/YinHanMsn/StudyAI/blob/main/LayerNormal)
 
 [大白话理解什么是Bias](https://github.com/YinHanMsn/StudyAI/blob/main/Bias)
 
@@ -57,15 +68,10 @@ png
 
 [大白话理解什么是RNN](https://github.com/YinHanMsn/StudyAI/blob/main/RNN)
 
-[大白话理解什么是层归一化](https://github.com/YinHanMsn/StudyAI/blob/main/LayerNormal)
 
-[大白话理解什么是FFN(前馈神经网络)](https://github.com/YinHanMsn/StudyAI/blob/main/FFN)
 
-[大白话理解什么是RoPE(旋转位置编码)](https://github.com/AI-QKV/StudyAI/blob/main/RoPE)
 
-[大白话理解什么是LoRA(Low-Rank Adaptation)](https://github.com/AI-QKV/StudyAI/blob/main/LoRA)
 
-[大白话理解什么是DPO(人类偏好对齐)](https://github.com/AI-QKV/StudyAI/blob/main/DPO)
 
 
 
