@@ -1,0 +1,30 @@
+大白话系列之什么是DPO
+
+黄金三角
+1，什么是DPO，DPO是人类偏好对齐，对模型训练的一种方式
+2，DPO能做什么，基于收集的数据，训练DPO后使其更符合用户想要的结果（如果模型训练的太偏了，还的用正则项拉回来，或者对Policy模型做一些调整）
+3，怎么学，DPO论文自行查找，论文公式如下所示：
+  准备数据和两个模型
+  一个Policy Model表示要DPO的模型
+  一个Ref Model表示最最原始的模型
+-------开始-------  
+  Policy Model    ---> (prompt, yw | yl) --->
+                                                 sigmoid ----> loss ---> 最终的效果
+  Ref    Molel    ---> (prompt, yw | yl) --->
+
+-----------------
+看不懂，那就看下面的具体步骤
+
+-------具体步骤-----
+1，准备数据，通常是一个问题两个答案，表示  1Q and 2A
+2，准备模型，基于上面的模型，policy Model和ref Model
+3，policy_chosen, policy_no = policy_model(1Q, yw, yl) # 注释，yw和yl就是第一步的两个答案，yw表示人类喜欢的答案，yl表示普通的答案或者不关联的答案，(prompt, yw | yl)这里的prompt就是1Q，表示问题的意思
+4，ref_chosen,ref_no = ref_model(1Q, yw, yl)           # 参考第三步的注释
+
+5，计算差异，diff_chosen = policy_chosen - ref_chosen      # 这个diff_chosen表示poloicy的答案和ref_model答案之间的差异
+6，diff_no = policy_no - ref_no        # 表示差的答案到底有多差
+7，设置超参数 bate 
+8, sigmoid(bate + （diff_chosen - diff_no）) 计算loss
+9，最终的效果
+
+  
