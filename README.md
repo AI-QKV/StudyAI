@@ -41,7 +41,7 @@ png
 以下内容和论文无关，自己总结的
 
 # StudyAI
-自己总结的，大白话学习AI
+自己总结的，大白话学习AI，本人用最最最简单的话来让你一分钟让你学会
 
 
 [大白话理解Transormer模型](https://github.com/YinHanMsn/StudyAI/blob/main/transformer)
@@ -68,6 +68,7 @@ png
 
 [大白话理解什么是RNN](https://github.com/YinHanMsn/StudyAI/blob/main/RNN)
 
+[大白话理解什么是LangChain](https://github.com/AI-QKV/StudyAI/blob/main/Langchain))
 
 
 
