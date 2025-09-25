@@ -56,7 +56,7 @@ png
 
 [大白话理解什么是FFN(前馈神经网络)](https://github.com/YinHanMsn/StudyAI/blob/main/FFN)
 
-[大白话理解什么是层归一化](https://github.com/YinHanMsn/StudyAI/blob/main/LayerNormal)
+[大白话理解什么是层归一化](https://github.com/AI-QKV/StudyAI/blob/main/LayerNorm)
 
 [大白话理解什么是Bias](https://github.com/YinHanMsn/StudyAI/blob/main/Bias)
 
@@ -73,6 +73,7 @@ png
 [大白话理解什么是QKV](https://github.com/AI-QKV/StudyAI/blob/main/QKV)
 
 [大白话理解什么是Token](https://github.com/AI-QKV/StudyAI/blob/main/token)
+
 
 
 
