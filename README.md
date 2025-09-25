@@ -72,6 +72,7 @@ png
 
 [大白话理解什么是QKV](https://github.com/AI-QKV/StudyAI/blob/main/QKV)
 
+[大白话理解什么是Token](https://github.com/AI-QKV/StudyAI/blob/main/token)
 
 
 
