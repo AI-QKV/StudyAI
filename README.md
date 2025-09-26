@@ -43,6 +43,21 @@ png
 # 一分钟让你学会AI
 自己总结的，大白话学习AI
 
+## RAG 智能问答 智能检索 系统
+
+一分钟明白整体架构
+以下架构适用于大多数智能问答和RAG检索系统
+如转载请注明出处，也是我坚持原创技术分享的动力！
+
+整体架构
+=======================================================================
+  业务层: 【智能问答】【RAG检索】【图片生成】【视频处理】【其他业务1 / 其他业务2 ...】
+  中间层: 【Langchain】【LangGraph】【LlamaIndex】【Agent】【Workflow】
+  核心层: 【Lora】【DPO】【向量数据库】【图数据库】【图片特征处理】【API管理】
+  基础层: 【Qwen / DeepSeek / MOE 】【DDPM】【DALL】
+  硬件层: 【4090 24G】【A100 80G】【H100 80G】【V100 48G】【L40 48G】
+=======================================================================
+
 [大白话理解（RAG/智能对话/图片处理）业务架构](https://github.com/AI-QKV/StudyAI/blob/main/%E4%B8%9A%E5%8A%A1%E6%9E%B6%E6%9E%84)
 
 [大白话理解Transormer模型](https://github.com/YinHanMsn/StudyAI/blob/main/transformer)
