@@ -30,7 +30,7 @@ PNG版 [How to Optimize Multimodal Large Language Models](https://github.com/Yin
   ###### 业务层: 【智能问答】【RAG检索】【图片生成】【视频处理】【其他业务1 / 其他业务2 ...】
   ###### 中间层: 【Langchain】【LangGraph】【LlamaIndex】【Agent】【Workflow】
   ###### 核心层: 【Lora】【DPO】【向量数据库】【图数据库】【图片特征处理】【API管理】
-  ###### 基础层: 【Qwen / DeepSeek / MOE 】【DDPM】【DALL】
+  ###### 模型层: 【Qwen / DeepSeek / MOE 】【DDPM】【DALL】
   ###### 硬件层: 【4090 24G】【A100 80G】【H100 80G】【V100 48G】【L40 48G】
   #### 详细内容可点击链接： [大白话理解（RAG/智能对话/图片处理）业务架构](https://github.com/AI-QKV/StudyAI/blob/main/%E4%B8%9A%E5%8A%A1%E6%9E%B6%E6%9E%84)
 ###### =======================================================================
