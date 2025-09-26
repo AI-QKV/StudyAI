@@ -43,6 +43,7 @@ png
 # 一分钟让你学会AI
 自己总结的，大白话学习AI
 
+[大白话理解（RAG/智能对话/图片处理）业务架构](https://github.com/AI-QKV/StudyAI/blob/main/%E4%B8%9A%E5%8A%A1%E6%9E%B6%E6%9E%84)
 
 [大白话理解Transormer模型](https://github.com/YinHanMsn/StudyAI/blob/main/transformer)
 
