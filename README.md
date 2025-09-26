@@ -1,4 +1,4 @@
-# 优化模型论文
+# 优化模型论文-----预印本
 ###### 本论文于2025-4-29首发于Github，引用请署名，
 
 由于markdown部分公式显示有问题，可以下载到本地查看，也可以查看png图片
@@ -12,7 +12,7 @@ MarkDown版 [How to Optimize Multimodal Large Language Models](https://github.co
 
 ###### 本预印本论文于2025-5-6首发于Github，引用请署名
 
-中文版 [Dual_Dimensional A Method for Quantifying End-to-End Stability Rate 《双维度建模：量化端到端稳定率方法研究》](https://github.com/YinHanMsn/StudyAI/blob/main/%E3%80%8A%E5%8F%8C%E7%BB%B4%E5%BA%A6%E5%BB%BA%E6%A8%A1%EF%BC%9A%E9%87%8F%E5%8C%96%E7%AB%AF%E5%88%B0%E7%AB%AF%E7%A8%B3%E5%AE%9A%E7%8E%87%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6%E3%80%8B.pdf)
+中文版 [《双维度建模：量化端到端稳定率方法研究》](https://github.com/YinHanMsn/StudyAI/blob/main/%E3%80%8A%E5%8F%8C%E7%BB%B4%E5%BA%A6%E5%BB%BA%E6%A8%A1%EF%BC%9A%E9%87%8F%E5%8C%96%E7%AB%AF%E5%88%B0%E7%AB%AF%E7%A8%B3%E5%AE%9A%E7%8E%87%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6%E3%80%8B.pdf)
 
 [Dual_Dimensional A Method for Quantifying End-to-End Stability Rate](https://github.com/YinHanMsn/StudyAI/blob/main/Dual_Dimensional%20A%20Method%20for%20Quantifying%20End-to-End%20Stability%20Rate.pdf)
 
