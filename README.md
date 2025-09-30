@@ -22,10 +22,10 @@ PNG版 [How to Optimize Multimodal Large Language Models](https://github.com/Yin
 
 ----------------
 #### 《多模态大模型的高效优化框架：模块化累积效应与质变》的实战之（业务层级）
-![](https://github.com/AI-QKV/StudyAI/blob/main/AI_framework.png)
-![](https://github.com/AI-QKV/StudyAI/blob/main/AI_framework_02.png)
-![](https://github.com/AI-QKV/StudyAI/blob/main/AI_framework_03.png)
-![](https://github.com/AI-QKV/StudyAI/blob/main/AI_framework_04.png)
+<img src="https://github.com/AI-QKV/StudyAI/blob/main/AI_framework.png" width="600" />
+<img src="https://github.com/AI-QKV/StudyAI/blob/main/AI_framework_02.png" width="600" />
+<img src="https://github.com/AI-QKV/StudyAI/blob/main/AI_framework_03.png" width="600" />
+<img src="https://github.com/AI-QKV/StudyAI/blob/main/AI_framework_04.png" width="600" />
 
 ---------------
 
