@@ -21,7 +21,7 @@ PNG版 [How to Optimize Multimodal Large Language Models](https://github.com/Yin
 [入门级教程————单词级别的LoRA微调](https://github.com/YinHanMsn/StudyAI/blob/main/Word_LoRA_LLM.py)
 
 ----------------
-#### 业务层级
+#### 《多模态大模型的高效优化框架：模块化累积效应与质变》的实战之（业务层级）
 ![](https://github.com/AI-QKV/StudyAI/blob/main/AI_framework.png)
 
 ---------------
