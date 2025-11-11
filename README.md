@@ -76,7 +76,7 @@ PNG版 [How to Optimize Multimodal Large Language Models](https://github.com/Yin
 
 [大白话LoRA深入浅出 LoRA微调](https://github.com/AI-QKV/StudyAI/blob/main/LoRA_SFT)
 
-
+[大白话解释大模型训练过程常见问题](https://github.com/AI-QKV/StudyAI/blob/main/Model_QA)
 
 
 
