@@ -1,0 +1,37 @@
+模型不匹配的问题系列
+
+Q:	创建并激活 Python 虚拟环境
+A:	python3.11 -m venv venv
+	source venv/bin/activate
+
+
+Q:	transfomer版本问题， 查看模型的config.json文件版本号/或者是否开发版本
+A:	查看本电脑的版本号
+	python -c "import transformers; print(transformers.__version__)"
+
+Q:	库的问题，有没有安装langchain_community
+A:	pip install langchain-community
+
+Q:	运行问题，比如要从远程下载东西，
+A:	是否开启强制离线TRANSFORMERS_OFFLINE = 1
+
+Q:	运行还是有问题，那么用vllm看能不能跑起来pip install --upgrade vllm
+A:，	python -m vllm.entrypoints.api_server \
+    --model "Qwen/Qwen2.5-Omni-3B" \
+    --dtype float16 \
+    --enforce-eager \
+    --tensor-parallel-size 1 \
+    --host 0.0.0.0 \
+    --port 8000
+
+
+Q： vllm跑起来后，如何查看使用
+A:	curl http://你的IP地址:8000/v1/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "Qwen/Qwen2.5-Omni-3B",
+    "prompt": "您好，这是一个中文内容，请写一首关于秋天的五言绝句。",
+    "max_tokens": 512,
+    "temperature": 0.7
+  }'
+
