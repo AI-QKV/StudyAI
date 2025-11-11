@@ -74,7 +74,7 @@ PNG版 [How to Optimize Multimodal Large Language Models](https://github.com/Yin
 
 [大白话理解什么是Token](https://github.com/AI-QKV/StudyAI/blob/main/token)
 
-[大白话理解LoRA微调](https://github.com/AI-QKV/StudyAI/blob/main/LoRA_SFT)
+[大白话LoRA深入浅出 LoRA微调](https://github.com/AI-QKV/StudyAI/blob/main/LoRA_SFT)
 
 
 
