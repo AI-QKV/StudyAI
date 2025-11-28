@@ -1,0 +1,96 @@
+LoRA的第一部分我们讲解了不同模型之间如何使用LoRA训练，也讲解在使用LoRA中参数的作用。
+这次我们来了解LoRA的内部是如何工作的，但是由于是为了让零基础的也能有所了解，所以下面的一些内容，尽量是用一种比较通俗易懂的方式表达。
+
+线性层
+
+在神经网络中，线性层是不可或缺的一环，也是所有复杂网络的基础组件。
+线性层的公式：
+Y=Wx+b
+
+Y是我们期望的结果，也就是预测值
+W是权重
+x是我们输入的值
+b是偏置项
+
+
+以上就是线性层的公式说明，有了公式，我们来一个假设，今天下雨，我们今天要卖出5杯咖啡。
+x表示下雨（1是下雨，0是不下雨）
+W表示下雨对销量的正向影响强度
+b基础销量
+y预测的卖出咖啡数量
+
+如果我们今天卖出去10杯，那么就是真实值和预测值有差异，也就是
+误差值 = 真实值 - 预测值
+这样我们就有了误差，预测预测的过程叫做正向传播，当我们有了误差，这个也叫做loss，有了loss，我们就要进行计算
+那么是W的原因导致的，还是b的原因导致的，找原因的过程，就叫做反向传播。
+
+
+
+
+LoRA如何工作
+我们知道了线性层的原理，现在我们回到正题，LoRA是如何工作的，LoRA是对线性层注入可训练的低秩矩阵实现高效微调，那么是如何注入的呢
+我们可以用下面的例子说明，
+Result =  OriginalLinear + LoRALinear;
+
+OriginalLinear: 表示原始的线性层，这个保持不变
+LoRALinear: 表示我们的LoRALinear层，原理是rank和矩阵A以及矩阵B
+Result: 表示结果
+
+# 原始线性层
+original = OriginalLinear()
+# LoRA线性层
+my_lora = LoRALinear(original, rank=4)
+
+
+# 具体代码
+class LoRALinear(nn.Module):
+    def __init__(self, original_linear_layer, r=4, lora_alpha=8):
+        super().__init__()
+        # 核心：引用并冻结原始线性层
+        self.original_linear = original_linear_layer
+        
+	# 冻结原始层的所有参数，不让它们参与训练
+        for param in self.original_linear.parameters():
+            param.requires_grad = False
+
+        # 开辟LoRA自己的小矩阵
+        in_features = original_linear_layer.in_features
+        out_features = original_linear_layer.out_features
+
+        self.lora_A = nn.Parameter(torch.zeros(r, in_features))  # 通常初始化为零
+        self.lora_B = nn.Parameter(torch.zeros(out_features, r))   # 通常初始化为零
+        self.scaling = lora_alpha / r  # 缩放因子，用于控制更新量的大小
+
+    def forward(self, x):
+        # 主路径：使用原始线性层进行计算
+        original_output = self.original_linear(x)
+
+        # 旁路路径：使用LoRA矩阵进行计算 (x -> A -> B)
+        lora_output = (x @ self.lora_A.T @ self.lora_B.T) * self.scaling
+
+        # 将两条路径的结果合并
+        return original_output + lora_output
+
+    def enable_lora(self):
+        """激活LoRA矩阵的训练状态"""
+        self.lora_A.requires_grad = True
+        self.lora_B.requires_grad = True
+        print(f"LoRA矩阵已激活，可训练参数为: A({self.lora_A.shape}), B({self.lora_B.shape})")
+
+
+
+————————————————————分割线———————————————————————
+
+LoRA都用在了哪些模块
+正如前面代码所示例的，如果我们手动实现 LoRA，我们有可能需要自己遍历模型中的每一层，找到线性层，然后用 LoRALinear 类去替换或封装它。
+这个过程对于一个有N多层、几百个子模块的 LLM 来说，是重复且容易出错的。
+像PEFT或Transformers这样的库之所以能“开箱即用”地训练LoRA。
+那是因为它们自动完成了我们之前讨论的“包装”过程，
+当我们通过target_modules传入要训练的模块时，我们用的库比如PEFT 会读取 Base Model 的结构（当然也会参考模型的配置文件，如config.json），在整个模型中自动找到所有符合这些名称的子模块。
+
+
+
+训练后的模型
+
+我们使用LoRA进行训练后，分为两种方式，第一种是合并成一个新的模型，这个新的模型，最终包含了训练后的知识，这个过程叫做 ‌权重合并（Weight Merging）‌。
+合并后，模型结构恢复原样，不再有额外的LoRA计算分支，因此‌推理时不会产生任何额外的计算开销‌。
